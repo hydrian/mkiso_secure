@@ -1,7 +1,9 @@
 # mkiso_secure
 Makes a verified ISO image of an optical disk
 
-This is a optical drive ISO ripping script that prioritizes accuracy over performance.
+This is an optical drive ISO ripping script that prioritizes accuracy over performance. This means, the optical drive is run at its slowest possible read speed to minimize read errors. This is important for discs that have visual imperfection on the media. mkiso_secure.sh also reads the media three times. This is to get a reliable checksum to compare against after the ISO file is ripped.
+
+The script also does common detections for types of media format type that ISOs are not suited like multi-session discs.
 
 ## Installation
 
