@@ -32,7 +32,11 @@ i.e. DRIVE=/dev/cdrom
 
 **DRIVE**
 
-DRIVE is the device file for your optical driver. This defaults to `/dev/cdrom` if it not set.
+DRIVE (string) is the device file for your optical driver. This defaults to `/dev/cdrom` if it not set.
+
+**EJECT_WHEN_DONE**
+
+EJECT_WHEN_DONE (true/false) Opens the optical drive when done. Defaults to false.
 
 ## Usage
 
