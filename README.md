@@ -40,4 +40,4 @@ EJECT_WHEN_DONE (true/false) Opens the optical drive when done. Defaults to fals
 
 ## Usage
 
-`mkiso_secure.sh OUTPUT_FILENAME`
+`mkiso_secure.sh OUTPUT_ISO_FILE`
